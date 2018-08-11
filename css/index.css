@@ -1,0 +1,184 @@
+* {
+	margin: 0; 
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+ul {
+	list-style: none;
+}
+
+html {
+	color: #333;
+}
+
+body {
+	font: 12px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+
+.hr-20 {
+    clear: both;
+    font-size: 1px;
+    line-height: 1px;
+	height: 20px;
+}
+
+.main {
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.sort {
+	border: 1px solid #dedede;
+    font-family: 'Tahoma',"Microsoft Yahei";
+    overflow: hidden;
+}
+
+.sort div.title, .sort div.sortValue {
+	float: left;
+}
+
+.sort div.title {
+	text-align: right;
+	width: 86px;
+	padding-top: 16px;
+    cursor: default;
+}
+
+.sortValue {
+	padding: 10px 0 10px 10px;
+}
+
+.sortValue ul li {
+	float: left;
+    margin-right: 30px;
+    padding: 6px 0;
+    height: 18px;
+    white-space: nowrap;
+    position: relative;
+}
+
+.sortValue ul li a {
+	color: #999;
+}
+
+.sortValue ul li a:before {
+	content: ' ';
+    position: absolute;
+    right: -12px;
+    top: 50%;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    width: 8px;
+    height: 10px;
+    margin-top: -5px;
+    background: transparent url(../img/icon1.png) scroll no-repeat;
+    background-position: 0 -70px;
+}
+
+.sortValue ul li a.sort-asc:before {
+    background-position: 0 -90px
+}
+
+.sortValue ul li a.sort-desc:before {
+    background-position: 0 -110px;
+}
+
+.sortValue ul li a.selected {
+	color: #e01d20;
+}
+
+/* 商品列表 */
+.content, .content ul {
+    width: 1220px;
+    overflow: hidden;
+}
+
+.content ul li {
+	float: left;
+	width: 20%;
+}
+
+.content ul li a {
+	display: block;
+    margin: 0 20px 20px 0;
+    border: 1px solid #dedede;
+    height: 362px;
+    position: relative;
+    text-align: center;
+    font-family: 'Tahoma',"Microsoft Yahei";
+    overflow: hidden;
+}
+
+.content ul li a:hover {
+	border-color: #e01d20;
+}
+
+.content ul li a img {
+	padding: 38px 0 24px;
+    text-align: center;
+    vertical-align: top;
+    width: 180px;
+    height: 180px;
+}
+
+.content ul li a .p-name {
+    line-height: 16px;
+    padding: 0 20px;
+    min-height: 38px;
+    overflow: hidden;
+    color: #666;
+}
+
+.content ul li a .p-price {
+	color: #e01d20;
+    line-height: 30px;
+}
+
+.content ul li a .p-price b {
+	font-size: 18px;
+    font-weight: 400;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.content ul li a .bottomButton {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #dedede;;
+}
+
+.bottomButton div {
+	float: left;
+	width: 50%;
+}
+
+.bottomButton .leftButton, .bottomButton .evaluateNum {
+	display: block;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #666;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: default;
+}
+
+.bottomButton .leftButton {
+	width: calc(50% - 1px);
+	color: #e01d20;
+	border-right: 1px solid #dedede;
+}
+
+.bottomButton .leftButton:hover {
+	background-color: #e01d20;
+	color: #fff;
+	cursor: pointer;
+}

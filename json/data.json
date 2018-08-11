@@ -1,0 +1,66 @@
+[
+	{
+		"id": 1,
+		"title": "荣耀 Note10",
+		"price": 2799,
+		"time": "2018-08-10",
+		"evaluateNum": 3860,
+		"img": "img/1.jpg"
+	},
+	{
+		"id": 2,
+		"title": "HUAWEI nova 3i",
+		"price": 1999,
+		"time": "2018-04-15",
+		"evaluateNum": 102,
+		"img": "img/2.jpg"
+	},
+	{
+		"id": 3,
+		"title": "HUAWEI nova 3i",
+		"price": 1999,
+		"time": "2018-02-25",
+		"evaluateNum": 102,
+		"img": "img/3.jpg"
+	},
+	{
+		"id": 4,
+		"title": "荣耀9",
+		"price": 1899,
+		"time": "2018-06-05",
+		"evaluateNum": 619,
+		"img": "img/4.jpg"
+	},
+	{
+		"id": 5,
+		"title": "荣耀畅玩7 移动4G+",
+		"price": 699,
+		"time": "2018-02-18",
+		"evaluateNum": 0,
+		"img": "img/5.jpg"
+	},
+	{
+		"id": 6,
+		"title": "HUAWEI nova 3",
+		"price": 2999,
+		"time": "2018-04-05",
+		"evaluateNum": 5089,
+		"img": "img/6.jpg"
+	},
+	{
+		"id": 7,
+		"title": "荣耀9i",
+		"price": 1399,
+		"time": "2018-07-19",
+		"evaluateNum": 18969,
+		"img": "img/7.jpg"
+	},
+	{
+		"id": 8,
+		"title": "荣耀Play",
+		"price": 1899,
+		"time": "2018-08-16",
+		"evaluateNum": 20250,
+		"img": "img/8.jpg"
+	}
+]
